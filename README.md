@@ -31,11 +31,12 @@ Sample data output from the llatency-script.py script
 Load Latency Histogram for TID 10842 total number of samples #      623
 -------------------------------------------------------------------------------
 
-     Cycles      Counts
-   0 - 70      547
- 71 - 140       60
-141 - 210       13
-211 - 280        2
-281 - 350        0
-   > 421:        1
+|     Cycles  |    Counts |
+|-------------|-----------|	
+|   0 - 70    |  547      |
+| 71 - 140    |   60      | 
+|141 - 210    |   13      | 
+|211 - 280    |    2      |
+|281 - 350    |    0      |
+|   > 421:    |    1      |
 
