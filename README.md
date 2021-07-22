@@ -16,7 +16,7 @@ Scripts needs perf.data created using commandline
 Script Uages:
 
     /* Tunable for histogram interval, ex. 70 */
-    /* default: 20 */
+    /* default: 70 */
 
     #export SCRIPT_HISTOGRAM_INTERVAL=
 

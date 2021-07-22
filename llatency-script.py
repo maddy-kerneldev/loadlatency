@@ -18,7 +18,7 @@
 #
 #   /* Tunable for histogram interval, ex. 70 */
 #   /* Histogram: 0-70, 71-140 ..  */
-#   /* default: 20 */
+#   /* default: 70 */
 #   #export SCRIPT_HISTOGRAM_INTERVAL=
 #
 #   /* Tunable to look samples for specific TID, ex 10842 */
@@ -53,7 +53,7 @@ def get_interval_val():
         strg = os.environ['SCRIPT_HISTOGRAM_INTERVAL']
         interval = int(strg)
     except:
-        interval = 20
+        interval = 70
 
 def get_tid_track():
     global ttid
