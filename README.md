@@ -7,6 +7,7 @@ Scripts needs perf.data created using commandline
 	#sudo perf record --weight -e "{cpu/event=0x672C0101EC,thresh_cmp=10/}":u -a sleep 10
 
    Event:
+   
     - Custom event (on top of PM_THRESH_MET-0x101ec) that programs Threshold logic for load only sampling,
       along with counting of cycles from issue to complete.
     - ":u" modifier is used to capture only userspace. 
