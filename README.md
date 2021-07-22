@@ -14,13 +14,13 @@ Scripts needs perf.data created using commandline
 
 Script Uages:
 
-   /* Tunable for histogram interval, ex. 70 */
-   /* default: 20 */
+    /* Tunable for histogram interval, ex. 70 */
+    /* default: 20 */
 
     #export SCRIPT_HISTOGRAM_INTERVAL=
 
-   /* Tunable to look samples for specific TID, ex 10842 */
-   /* default: All samples in the perf.data file */
+    /* Tunable to look samples for specific TID, ex 10842 */
+    /* default: All samples in the perf.data file */
 
     #export SCRIPT_HISTOGRAM_TTID=
 
